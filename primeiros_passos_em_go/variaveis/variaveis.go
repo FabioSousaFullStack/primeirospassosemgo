@@ -1,6 +1,7 @@
 package main
 
-import "fmt"
+import 	"fmt"
+import	"reflect"
 
 func main(){
 	var nome string = "Fabio" 
@@ -8,5 +9,9 @@ func main(){
 
 	fmt.Println("Olá sr.", nome)
 	fmt.Println("Versão", versao)
+
+	fmt.Println("O tipo da variável nome é :", reflect.TypeOf(nome))
+
+
 	
 }
