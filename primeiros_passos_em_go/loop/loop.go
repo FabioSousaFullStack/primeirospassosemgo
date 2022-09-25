@@ -1,7 +1,2 @@
-package main
-
-import "fmt"
-
-func main(){
-	fmt.Println("Estamos realizando um teste")
-}
+func (s *World) 
+SayWorld(ctx context.Context, req *proto.SayWorldRequest) (*proto.SayWorldResponse, error)
