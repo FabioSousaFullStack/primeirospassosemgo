@@ -1,5 +1,4 @@
 # Meus primeiros passos em Go
-## Overview
 
 ## Breve descrição
 
