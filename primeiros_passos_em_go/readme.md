@@ -5,7 +5,7 @@
 Neste repositório encontra-se meus primeiros passos na linguagem Go.
 Iniciei meus estudos na plataforma Go, utilizando o exercism, o link está nas documentações estudadas.
 
-@@ Plataforma Go
+## Plataforma Go
 
 https://go.dev
 
