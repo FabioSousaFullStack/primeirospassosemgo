@@ -4,7 +4,7 @@ Este repositório é destinado a documentar, os primeiros passos na plataforma G
 
 # Sobre o repositório 
 
-Neste repositório, forma utilizados os seguintes conceitos:
+Neste repositório, foram utilizados os seguintes conceitos:
 
 - Variáveis 
 - Loops
