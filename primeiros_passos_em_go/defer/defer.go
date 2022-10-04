@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 func main(){
+	fmt.Println("Este é um texto escrito por Clarice Lispector")
+	fmt.Println("Não te amo mais")
+
 	contrario()
+	 
 }
 
 func texto(){
