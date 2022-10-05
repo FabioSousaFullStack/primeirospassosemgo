@@ -29,15 +29,14 @@ func main(){
 	fmt.Scan(&escolha)
 
 
-	
-	if escolha == 2{
-		for i := 0; i < 15 ; i++ {
-			defer fmt.Println(texto[i])
-		}}else{
-			for i := 0; i < 15 ; i++ {
-			fmt.Println(texto[i])
-		}} 
+	for i := 0; i < 15 ; i++ {
+              if escolha == 2 {
+                 defer fmt.Println(texto[i])
+             }else{
+                       fmt.Println(texto[i])
+             }
 
+        }
 		fmt.Println("")
 		fmt.Println("********************************")
 		fmt.Println("Poema de Clarice Lispector")
