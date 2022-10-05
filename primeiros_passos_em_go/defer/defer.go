@@ -22,7 +22,7 @@ func main(){
 
 	var escolha int
 
-	fmt.Println("Escolha uma opção para ler um dos poemas mais famosos de Claric1e Lispector")
+	fmt.Println("Escolha uma opção para ler um dos poemas mais famosos de Clarice Lispector")
 	fmt.Println("1. Sem uso da declaração defer")
 	fmt.Println("2. Com uso declaração defer")
 	fmt.Print("Digite sua opção: ")
