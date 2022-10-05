@@ -1,5 +1,4 @@
-# Defer eum um texto.
-## Uso da declaração defer (adiar)
+# Declaração Defer em um poema.
 
 Os argumentos das chamadas adiadas são avaliados imediatamente, mas a função chamada não é executada até o retorno da função.
 
@@ -13,4 +12,5 @@ Este projeto foi inspirado no texto de Clarice Lispector "Não te amo mais".
 - Last in, first out.
 - Utilização de laços.
 - Utilização de arrays 
-- Utilização do len()
+- Laços 
+- condicionais
