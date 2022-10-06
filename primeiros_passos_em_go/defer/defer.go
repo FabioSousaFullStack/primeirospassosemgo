@@ -30,11 +30,10 @@ func main(){
 
 
 	
-	if escolha == 2{
-		for i := 0; i < 15 ; i++ {
+	    for i := 0; i < 15 ; i++ {
+		if escolha == 2{
 			defer fmt.Println(texto[i])
-		}}else{
-			for i := 0; i < 15 ; i++ {
+		}else{			
 			fmt.Println(texto[i])
 		}} 
 
