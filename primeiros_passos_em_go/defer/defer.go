@@ -22,13 +22,14 @@ func main(){
 
 	var escolha int
 
-	fmt.Println("Escolha uma opção para ler um dos poemas mais famosos de Claric1e Lispector")
+	fmt.Println("Escolha uma opção para ler um dos poemas mais famosos de Clarice Lispector")
 	fmt.Println("1. Sem uso da declaração defer")
 	fmt.Println("2. Com uso declaração defer")
 	fmt.Print("Digite sua opção: ")
 	fmt.Scan(&escolha)
 
 
+<<<<<<< HEAD
 	
 	    for i := 0; i < 15 ; i++ {
 		if escolha == 2{
@@ -36,7 +37,16 @@ func main(){
 		}else{			
 			fmt.Println(texto[i])
 		}} 
+=======
+	for i := 0; i < 15 ; i++ {
+              if escolha == 2 {
+                 defer fmt.Println(texto[i])
+             }else{
+                       fmt.Println(texto[i])
+             }
+>>>>>>> 20cfc4344f8a4228a9a432c310ff6b1063910a56
 
+        }
 		fmt.Println("")
 		fmt.Println("********************************")
 		fmt.Println("Poema de Clarice Lispector")
