@@ -37,7 +37,7 @@ func main(){
 			fmt.Println(texto[i])
 		}} 
 
-        }
+        
 		fmt.Println("")
 		fmt.Println("********************************")
 		fmt.Println("Poema de Clarice Lispector")
