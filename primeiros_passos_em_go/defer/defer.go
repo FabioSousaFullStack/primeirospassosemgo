@@ -29,7 +29,6 @@ func main(){
 	fmt.Scan(&escolha)
 
 
-<<<<<<< HEAD
 	
 	    for i := 0; i < 15 ; i++ {
 		if escolha == 2{
@@ -37,14 +36,6 @@ func main(){
 		}else{			
 			fmt.Println(texto[i])
 		}} 
-=======
-	for i := 0; i < 15 ; i++ {
-              if escolha == 2 {
-                 defer fmt.Println(texto[i])
-             }else{
-                       fmt.Println(texto[i])
-             }
->>>>>>> 20cfc4344f8a4228a9a432c310ff6b1063910a56
 
         }
 		fmt.Println("")
